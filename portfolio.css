@@ -1,0 +1,256 @@
+html{
+    scroll-behavior: smooth;
+}
+header{
+    background-color: #0f1729;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 8%;
+}
+header p{
+    font-size:20px ;
+}
+a,p{
+    color: white;
+    text-decoration: none;
+}
+header a{
+    color: white;
+}
+header a:hover{
+     color: #2196F3;
+     text-decoration: underline 5px;
+}
+span{
+    color: #2196F3;
+}
+nav{
+    position: relative;
+}
+.nav_links{
+    display: flex;
+    gap: 30px;
+}
+.nav_links.active{
+    display: block;
+}
+#menu_btn{
+    display: none;
+}
+#home{
+    background-color: #101822;
+    color: white;
+    min-height: 430px;
+    padding: 60px 8%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+#home_text{
+    font-size: 20px;
+}
+#home_img{
+    width: 40%;
+    color: #0f1729;
+}
+#home_img img{
+    width: 100%;
+    max-width: 450px;
+}
+#home h1{
+    margin: 15px 0;
+}
+#home p{
+    max-width: 550px;
+    line-height: 1.6;
+}
+#home a{
+    color: white;
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 25px;
+    background-color: #2196F3;
+    text-decoration: none;
+    border-radius: 25px;
+}
+#about{
+    background-color:white;
+    color: black;
+    max-height: 200px;
+    display: flex;
+     justify-content: space-between;
+     gap:30%;
+         padding: 60px 8%;
+
+}
+#about p{
+    color: grey;
+}
+.info{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     margin-top: 5%;
+}
+.title{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+#skills{
+    background-color: #f4f6f9;
+    padding: 60px 8%;
+    margin-top: 50px;
+}
+#skills_info{
+    display: flex;
+    gap: 5%;
+}
+
+#html{
+    background-color: white;
+    background-size: contain;
+    padding: 20px;
+    border-radius: 10px;
+}
+#html img{
+    width: 100%;
+}
+#css{
+    background-color: white;
+    background-size: contain;
+    padding: 20px;
+    border-radius: 10px;
+}
+#css img{
+    width: 100%;
+}
+#js{
+    background-color: white;
+    background-size: contain;
+    padding: 20px;
+    border-radius: 10px;
+}
+#js img{
+    width: 100%;
+}
+#react{
+    background-color: white;
+    background-size: contain;
+    padding: 20px;
+    border-radius: 10px;
+}
+#react img{
+    width: 100%;
+}
+#github{
+    background-color: white;
+    background-size: contain;
+    padding: 20px;
+    border-radius: 10px;
+}
+#github img{
+    width: 100%;
+}
+#skills h3{
+    text-align: center;
+}
+#skills p{
+    color: grey;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+#projects{
+    padding: 60px 8%;
+}
+#projects_info{
+    display: flex;
+    gap: 100px;
+}
+#e_commerce img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+#task_manager img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+#task_manager{
+    display: flex;
+    gap: 10px;
+}
+#task_manager p{
+    color: grey;
+}
+#task_manager a{
+    color: #2196F3;
+}
+#e_commerce{
+    display: flex;
+    gap: 10px;
+}
+#e_commerce p{
+    color: gray;
+}
+
+#e_commerce a{
+    color: #2196F3;
+}
+#contact{
+    background-color: #0f1729;
+    color: white;
+    padding: 50px 8%;
+}
+#contact p ,a{
+    color: grey;
+}
+.contact_mails{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 5%;
+    margin-left: 5%;
+    gap: 30px;
+}
+#contact_info{
+    display: flex;
+    gap: 80px;
+}
+footer{
+    background-color: #0f1729;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1px;
+}
+footer p{
+    color: grey;
+}
+i{
+    color: #2196F3;
+}
+@media (max-width:768px){
+    .nav_links{
+        display: none;
+        position: absolute;
+        right: 0;
+        
+    }
+    #menu_btn{
+        display: flex;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .nav_links.active{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin: 20px ;
+    }
+}
