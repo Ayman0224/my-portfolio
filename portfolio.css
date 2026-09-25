@@ -274,6 +274,7 @@ i{
     .info{
         margin-top: 20px;
         align-items: center;
+        justify-content: center;
     }
     #skills_info{
         flex-direction:column ;
