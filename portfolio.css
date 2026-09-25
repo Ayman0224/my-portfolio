@@ -265,4 +265,14 @@ i{
         width: 80%;
         margin-top: 30px;
     }
+    #about{
+        flex-direction: column;
+        max-height: none;
+        gap: 30px;
+        text-align: center;
+    }
+    .info{
+        margin-top: 20px;
+        align-items: center;
+    }
 }
