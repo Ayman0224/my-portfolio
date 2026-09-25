@@ -235,6 +235,9 @@ i{
     color: #2196F3;
 }
 @media (max-width:768px){
+    html{
+        width: 100%;
+    }
     .nav_links{
         display: none;
         position: absolute;
@@ -252,5 +255,14 @@ i{
         flex-direction: column;
         gap: 15px;
         margin: 20px ;
+    }
+    #home{
+        flex-direction: column;
+        text-align: center;
+        min-height: auto;
+    }
+    #home img{
+        width: 80%;
+        margin-top: 30px;
     }
 }
