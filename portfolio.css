@@ -291,4 +291,24 @@ i{
         height: auto;
         max-width: 300px;
     }
+    #contact_info{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .contact_mails{
+        margin-left: 0;
+        align-items: center;
+    }
+    #info{
+        text-align: center;
+    }
+    footer{
+        padding: 0 5%;
+        text-align: center;
+        height: auto;
+        min-height: 50px;
+    }
+    footer p{
+        font-size: 14px;
+    }
 }
