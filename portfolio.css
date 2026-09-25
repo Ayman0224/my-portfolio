@@ -275,4 +275,8 @@ i{
         margin-top: 20px;
         align-items: center;
     }
+    #skills_info{
+        flex-direction:column ;
+        gap: 20px;
+    }
 }
