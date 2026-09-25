@@ -279,4 +279,16 @@ i{
         flex-direction:column ;
         gap: 20px;
     }
+    #projects_info{
+        flex-direction: column;
+        gap: 30px;
+    }
+    #e_commerce, #task_manager{
+        flex-direction: column;
+    }
+    #e_commerce img, #task_manager img{
+        width: 100%;
+        height: auto;
+        max-width: 300px;
+    }
 }
