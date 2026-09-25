@@ -272,8 +272,15 @@ i{
         text-align: center;
     }
     .info{
+        justify-content: flex-start;
         margin-top: 20px;
         align-items: center;
+        gap: 25px;
+    }
+    .education_info, .location_info, .emails_info{
+        margin-bottom: 0;
+    }
+    .title{
         justify-content: center;
     }
     #skills_info{
